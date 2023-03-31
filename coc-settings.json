@@ -1,0 +1,19 @@
+{
+  "languageserver": {
+    "haxe": {
+      "command": "node",
+      "args": [
+        "/Users/aruankapbasov/Downloads/Programs/haxe-language-server/bin/server.js"
+      ],
+      "filetypes": ["haxe"],
+      "trace.server": "verbose",
+      "initializationOptions": {
+        "displayArguments": ["build.hxml"]
+      },
+      "settings": {
+        "haxe.executable": "haxe"
+      }
+    }
+  },
+  "coc.preferences.formatOnSave": true
+}
